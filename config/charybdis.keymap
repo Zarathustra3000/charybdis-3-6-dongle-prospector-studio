@@ -145,10 +145,10 @@
       key-positions = <11 12>;
       bindings = <&kp LC(BACKSPACE)>;
     };
-    combo_unlock {
+/* combo_unlock {
       key-positions = <0 4>;
       bindings = <&studio_unlock>;
-    };
+    }; */
   };
   chosen {
     zmk,physical-layout = &charybdis_6col_layout;
